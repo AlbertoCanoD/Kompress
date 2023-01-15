@@ -9,7 +9,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-v", "--video", help="video path",
                     default="test_files/test.mp4", type=str)
 parser.add_argument("-c", "--compression",
-                    help="percent of compression", type=int, default=80)
+                    help="percent of compression ratio", type=int, default=80)
 args = parser.parse_args()
 
 # Exception handling
