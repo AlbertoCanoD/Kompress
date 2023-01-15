@@ -1,11 +1,13 @@
-# Kompress
+# Fast and ligthweight python based video compressor
 
-## Fast and ligthweight python based video compressor
-
-### Files
+## Files
 
 I'm testing three differents library to test the performance
 
 - OpenCV
 - FFMPEG
 - MoviePy
+
+## Future work
+
+ - Make it native
